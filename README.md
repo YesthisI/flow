@@ -4,7 +4,7 @@
 When threads are created, the system allocates an array of dtype values for thread local storage (TLS), which are initialized to NULL values. 
 Before an index can be used, one of the threads must be assigned. Each thread stores its index data in an array of TLS slots. 
 If the data associated with the index matches a value of type dtype , you can store the data directly in the TLS slot.
-![alt text][https://github.com/YesthisI/flow/blob/main/images/Process.jpg]
+![alt text](https://github.com/YesthisI/flow/blob/main/images/Process.jpg)
 
 # Installation
 ```
