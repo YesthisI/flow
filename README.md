@@ -1,6 +1,6 @@
 # Introduction
 
-`flow`  is a module for creating and working with individual threads in the local memory of each.
+`flowgo`  is a module for creating and working with individual threads in the local memory of each.
 When threads are created, the system allocates an array of dtype values for thread local storage (TLS), which are initialized to NULL values. 
 Before an index can be used, one of the threads must be assigned. Each thread stores its index data in an array of TLS slots. 
 If the data associated with the index matches a value of type dtype , you can store the data directly in the TLS slot.
@@ -9,16 +9,16 @@ If the data associated with the index matches a value of type dtype , you can st
 
 # Installation
 ```
-pip install flow
+pip install flowgo
 ```
 # Import
 ```python
-from flow import new
+from flowgo import new
 ```
 
 #User Example
 ```python
->>>from flow import new
+>>>from flowgo import new
 >>> d = new(float,10)
 >>> d.index
 [[0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
