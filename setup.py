@@ -1,7 +1,7 @@
 from distutils.core import setup
 
-setup(name='flow',
-      packages=['flow'],
+setup(name='flowgo',
+      packages=['flowgo'],
       version='0.1',
       description='This module for creating and working with individual threads in the local memory of each.',
       author = 'Alexander Borovikov',
