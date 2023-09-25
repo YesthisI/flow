@@ -8,4 +8,4 @@ setup(name='flowgo',
       author_email='teiwaz-h@mail.ru',
       url = 'https://github.com/YesthisI/flow/',
       keywords = ['stack','local','threaded'],
-      classifiers = []
+      classifiers = [])
