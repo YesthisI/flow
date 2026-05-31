@@ -1,0 +1,14 @@
+# .coveragerc
+[run]
+source = flowgo
+omit =
+    */__init__.py  # можно убрать, если хочешь покрывать __init__
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError
+
+ignore_errors = True

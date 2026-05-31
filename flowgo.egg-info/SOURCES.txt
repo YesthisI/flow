@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+flowgo/__init__.py
+flowgo.egg-info/PKG-INFO
+flowgo.egg-info/SOURCES.txt
+flowgo.egg-info/dependency_links.txt
+flowgo.egg-info/requires.txt
+flowgo.egg-info/top_level.txt
+tests/test_flowgo.py

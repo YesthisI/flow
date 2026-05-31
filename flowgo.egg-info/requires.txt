@@ -1,0 +1,13 @@
+numpy>=1.20
+
+[dev]
+numpy
+pytest
+pytest-cov
+build
+twine
+
+[test]
+pytest>=7.0
+pytest-cov
+codecov

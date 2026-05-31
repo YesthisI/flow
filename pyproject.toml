@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowgo"
+version = "1.2.0"
+authors = [{ name = "Tonuk", email = "teiwaz-h@mail.ru" }]
+description = "Dynamic thread-local storage with mixed-type indexing"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries"
+]
+dependencies = [
+    "numpy>=1.20"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "codecov"
+]
+dev = [
+    "numpy",
+    "pytest",
+    "pytest-cov",
+    "build",
+    "twine"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/YesthisI/flow"
+Repository = "https://github.com/YesthisI/flow"
+Issues = "https://github.com/YesthisI/flow/issues"
